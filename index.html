@@ -12,8 +12,30 @@
 
 
   <body>
+
+
+
+    <!-- Form che si collega a "paragrafo.php" -->
+     <h1>PHP Badwords</h1>
+
+     <form action="paragrafo.php" method="GET">
+        <label for="censura">La parola da censurare è:</label>
+        <input type="text" name="censura" id="censura">
+        <button type="submit">O</button>
+     </form>
+
+
+
+
+     <!-- Risultato restitutito da PHP -->
+     <div id="php-output">
+        <!-- Il contenuto PHP sarà inserito qui dentro -->
+     </div>
     
 
+
+
+     
     <!-- Collegamento JS -->
     <script type="module" src="/src/main.js"></script>
   </body>

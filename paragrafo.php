@@ -10,4 +10,7 @@ echo "<p>$Paragrafo</p>";
 echo "<p>Lunghezza: " . strlen($Paragrafo) . "</p>";
 
 
+/* Prendi la parola da censurare nell'HTML */
+$censored_word = $_GET['censura'];
+
 ?>
