@@ -16,7 +16,7 @@ $censored_word = $_GET['censura'];
 /* --------------------------------------------------------------------------------- */
 
 // Censura la parola nel paragrafo
-$censored_Paragrafo = str_replace($censored_word, '***', $Paragrafo);
+$censored_Paragrafo = str_replace($censored_word, '*', $Paragrafo);
 
 
 // Stampa il paragrafo censurato e la sua lunghezza
