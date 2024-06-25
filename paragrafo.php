@@ -21,8 +21,8 @@ $censored_Paragrafo = str_replace($censored_word, '***', $Paragrafo);
 
 // Stampa il paragrafo censurato e la sua lunghezza
 echo "<h2>Paragrafo Censurato:</h2>";
-echo "<p>$censored_paragraph</p>";
-echo "<p>Lunghezza: " . strlen($censored_paragraph) . "</p>";
+echo "<p>$censored_Paragrafo</p>";
+echo "<p>Lunghezza: " . strlen($censored_Paragrafo) . "</p>";
 
 
 ?>
